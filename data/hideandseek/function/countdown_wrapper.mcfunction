@@ -1,0 +1,1 @@
+function hideandseek:countdown with storage hideandseek:state
