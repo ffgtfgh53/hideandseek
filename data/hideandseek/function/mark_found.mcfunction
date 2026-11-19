@@ -20,5 +20,5 @@ execute \
 # stop if everyone found
 execute \
     if score duration hideandseek_internal matches 1..2147483647 \
-    if entity @a[scores={hideandseek_internal=1}] \
+    unless entity @a[scores={hideandseek_internal=1}] \
     run function hideandseek:stop_seeking
