@@ -25,4 +25,4 @@ schedule clear hideandseek:countdown_wrapper
 
 # XXX IMPORTANT XXX
 # Enter coordinates of starting point below (replace '0 64 0')
-teleport @a 0 64 0
+teleport @a -286 72 861
