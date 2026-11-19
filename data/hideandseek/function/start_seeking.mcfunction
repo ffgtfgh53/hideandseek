@@ -1,6 +1,6 @@
 data modify storage hideandseek:state seeking set value ""
 data modify storage hideandseek:state stop_func set value "hideandseek:stop_seeking"
-scoreboard players set duration hideandseek_internal 15
+scoreboard players set duration hideandseek_internal 480
 
 advancement revoke @a[scores={hideandseek_internal=1}] only hideandseek:found
 gamerule pvp true
